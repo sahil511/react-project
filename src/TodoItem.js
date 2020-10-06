@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-export class TodoItem extends Component {git init
+export class TodoItem extends Component {
     getStyle =  () => {
         return{
             background : '#add8e6',
@@ -9,7 +9,6 @@ export class TodoItem extends Component {git init
             margin: '5px',
             textDecoration: this.props.todo.completed ? 
             'line-through' : 'none',
-            alignContent : 'center'
                 
         }
     }

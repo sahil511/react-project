@@ -68,7 +68,7 @@ render() {
     <div className="App">
       <div className="container">
       <Header/>
-      <Route exact path="/" render ={props =>(
+      <Route path="/" render ={props =>(
         <React.Fragment>
         <AddTodo AddTodo = {this.AddTodo} />
         <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>
